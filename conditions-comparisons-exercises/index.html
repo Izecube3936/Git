@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Sent</title>
+</head>
+
+<body>
+  <!-- <script src="uppgift4.js"></script> -->
+ 
+  
+  
+  
+  
+ <script>
+let gissning1 = prompt("Gissa ett tal mellan 1-3: ");
+let rätt = Math.floor(Math.random() * 4);      //1-3
+
+if (gissning1 == rätt)
+  {
+alert("Du gissade rätt!");
+}
+	  if(gissning1 != rätt && gissning1 < rätt) {		
+	let gissning2a = prompt("Fel, du får ett försök till. Talet är större: ");
+			if (gissning2a == rätt)	{
+		    alert("Denna gång gissade du rätt!");
+			}
+			if (gissning2a != rätt)	{
+			alert("Fel, även denna gång");
+			
+			}
+			
+		}
+			
+		 if(gissning1 != rätt && gissning1 > rätt) {
+	let gissning2a = prompt("Fel, du får ett försök till. Talet är mindre: ");
+			if (gissning2a == rätt)	{
+		    alert("Denna gång gissade du rätt!");
+			}
+			if (gissning2a != rätt)	{
+			alert("Fel, även denna gång");
+			}
+			
+		}
+		
+		
+		
+		</script>
+	<!--
+	if (gissning1 > rätt) {
+	let gissning2b = prompt("Fel, du får ett försök till. Talet är mindre: ");
+	if (gissning2b == rätt)	{
+		    alert("Denna gång gissade du rätt!");
+			}
+		}
+		
+	else alert("Ogiltigt val");*/ -->
+	
+ 
+
+
+  
+  
+</body>
+  
+</html>
