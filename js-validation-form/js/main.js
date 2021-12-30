@@ -49,7 +49,9 @@ registerForm.addEventListener('submit', function(e) {
             </div>
         `;
     }
-});
+
+
+})
 
 
 let birthYearSelectOptions = '';
